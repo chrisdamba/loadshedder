@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">loadshedder</string>
+  <string name="app_name">Zimbabwe Load Shedding</string>
+  <string name="some_text">
+    Electricity Load Shedding Schedule!
+  </string>
+  <string name="some_hint">
+    Type here to filter the location
+  </string>
 </resources>
