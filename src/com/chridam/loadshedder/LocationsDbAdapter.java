@@ -1,6 +1,7 @@
 package com.chridam.loadshedder;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -8,10 +9,7 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,7 +19,7 @@ import java.io.OutputStream;
  * To change this template use File | Settings | File Templates.
  */
 public class LocationsDbAdapter {
-    public static final String KEY_ROWID = "id";
+    public static final String KEY_ROWID = "_id";
     public static final String KEY_CODE = "AreaCode";
     public static final String KEY_NAME = "Name";
     public static final String KEY_REGION = "Region";
@@ -31,7 +29,7 @@ public class LocationsDbAdapter {
     private SQLiteDatabase mDb;
 
     private static final String DATABASE_PATH = "/data/data/com.chridam.loadshedder/databases/";
-    private static final String DATABASE_NAME = "loadshedder.db";
+    private static final String DATABASE_NAME = "loadshed.db";
     private static final String SQLITE_TABLE = "Locations";
     private static final int DATABASE_VERSION = 1;
 
@@ -79,7 +77,7 @@ public class LocationsDbAdapter {
             if(dbExist){
                 //do nothing - database already exist
             }else{
-                //By calling this method and empty database will be created into the default system path
+                //By calling this method an empty database will be created into the default system path
                 //of your application so we are gonna be able to overwrite that database with our database.
                 this.getReadableDatabase();
                 try {
@@ -90,14 +88,24 @@ public class LocationsDbAdapter {
             }
         }
 
-        private boolean checkDataBase(){
+        private boolean checkDataBase() throws IOException {
             SQLiteDatabase checkDB = null;
-
+            String myPath = DATABASE_PATH + DATABASE_NAME;
             try{
-                String myPath = DATABASE_PATH + DATABASE_NAME;
                 checkDB = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
-            }catch(SQLiteException e){
-                //database does't exist yet.
+            }
+            catch(SQLiteException e){
+                // copy if db doesn't exist
+                AssetManager am = myContext.getAssets();
+                OutputStream os = new FileOutputStream(myPath);
+                byte[] b = new byte[100];
+                int r;
+                InputStream is = am.open(DATABASE_NAME);
+                while ((r = is.read(b)) != -1) {
+                    os.write(b, 0, r);
+                }
+                is.close();
+                os.close();
             }
 
             if(checkDB != null){
