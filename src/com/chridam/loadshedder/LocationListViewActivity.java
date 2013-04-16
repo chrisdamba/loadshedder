@@ -47,7 +47,6 @@ public class LocationListViewActivity extends Activity {
         String[] columns = new String[] {
                 LocationsDbAdapter.KEY_CODE,
                 LocationsDbAdapter.KEY_NAME,
-                LocationsDbAdapter.KEY_REGION,
                 LocationsDbAdapter.KEY_REGION
         };
 
@@ -55,7 +54,6 @@ public class LocationListViewActivity extends Activity {
         int[] to = new int[] {
                 R.id.code,
                 R.id.name,
-                R.id.continent,
                 R.id.region,
         };
 
