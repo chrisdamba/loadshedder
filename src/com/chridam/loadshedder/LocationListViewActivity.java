@@ -81,10 +81,10 @@ public class LocationListViewActivity extends Activity {
                 Cursor cursor = (Cursor) listView.getItemAtPosition(position);
 
                 // Get the state's capital from this row in the database.
-                String countryCode =
-                        cursor.getString(cursor.getColumnIndexOrThrow("code"));
+                String locationCode =
+                        cursor.getString(cursor.getColumnIndexOrThrow("AreaCode"));
                 Toast.makeText(getApplicationContext(),
-                        countryCode, Toast.LENGTH_SHORT).show();
+                        locationCode, Toast.LENGTH_SHORT).show();
 
             }
         });

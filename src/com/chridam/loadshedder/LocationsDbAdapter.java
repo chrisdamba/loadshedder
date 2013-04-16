@@ -24,7 +24,7 @@ public class LocationsDbAdapter {
     public static final String KEY_ROWID = "id";
     public static final String KEY_CODE = "AreaCode";
     public static final String KEY_NAME = "Name";
-    public static final String KEY_REGION = "region";
+    public static final String KEY_REGION = "Region";
 
     private static final String TAG = "LocationsDbAdapter";
     private DatabaseHelper mDbHelper;
@@ -136,7 +136,7 @@ public class LocationsDbAdapter {
 
     public LocationsDbAdapter open() throws SQLException {
         mDbHelper = new DatabaseHelper(mCtx);
-
+        mDb = mDbHelper.getWritableDatabase();
         try {
             mDbHelper.createDataBase();
         } catch (IOException ioe) {
@@ -201,9 +201,8 @@ public class LocationsDbAdapter {
 
     public Cursor fetchAllLocations() {
 
-        Cursor mCursor = mDb.query(SQLITE_TABLE, new String[] {KEY_ROWID,
-                KEY_CODE, KEY_NAME, KEY_REGION},
-                null, null, null, null, null);
+        Cursor mCursor = mDb.query(SQLITE_TABLE, new String[] {KEY_REGION, KEY_ROWID,
+                KEY_CODE, KEY_NAME}, null, null, null, null, null);
 
         if (mCursor != null) {
             mCursor.moveToFirst();

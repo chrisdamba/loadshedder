@@ -29,11 +29,12 @@
     <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366049470026" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366060362218" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366049549197" ignored="false" />
-    <file path="/LocationsDbAdapter.java" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366059422794" ignored="false" />
+    <file path="/LocationsDbAdapter.java" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366135437412" ignored="false" />
     <file path="/strings.xml" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366060038227" ignored="false" />
     <file path="/Dummy.txt" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366060111043" ignored="false" />
     <file path="/location_info.xml" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366060157002" ignored="false" />
-    <file path="/LocationListViewActivity.java" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366097113643" ignored="false" />
+    <file path="/LocationListViewActivity.java" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366132766228" ignored="false" />
+    <file path="/fragment.java" changelist="5a0422d3-5d41-4e54-a9de-eb2b2df6ca0d" time="1366134747574" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +84,22 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationListViewActivity.java" line="70" class="com.chridam.loadshedder.LocationListViewActivity" package="com.chridam.loadshedder">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -92,17 +109,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LocationListViewActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LocationListViewActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationListViewActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="37" selection-start="648" selection-end="672" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2232#2920#0" expanded="true" />
-                <element signature="e#2909#2910#0" expanded="true" />
-                <element signature="e#3533#3723#0" expanded="true" />
-                <element signature="e#3712#3713#0" expanded="true" />
-              </folding>
+            <state line="75" column="24" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.7583333">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +121,7 @@
       <file leaf-file-name="LocationsDbAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationsDbAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="13" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0">
+            <state line="203" column="75" selection-start="6801" selection-end="6801" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,16 +139,16 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+            <state line="7" column="36" selection-start="253" selection-end="253" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="810" selection-end="810" vertical-scroll-proportion="0.5361781">
+            <state line="16" column="46" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,11 +165,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/chridam/loadshedder/Location.java" />
-        <option value="$PROJECT_DIR$/src/com/chridam/loadshedder/LocationsDbAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/location_info.xml" />
         <option value="$PROJECT_DIR$/src/com/chridam/loadshedder/LocationListViewActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/chridam/loadshedder/LocationsDbAdapter.java" />
       </list>
     </option>
   </component>
@@ -194,7 +206,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,19 +295,22 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Android/ZESA/1.0" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -332,19 +346,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -370,6 +371,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -423,11 +437,11 @@
     </configuration>
     <configuration default="false" name="loadshedder" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="loadshedder" />
-      <option name="ACTIVITY_CLASS" value="com.chridam.loadshedder.MainActivity" />
+      <option name="ACTIVITY_CLASS" value="com.chridam.loadshedder.LocationListViewActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="dev-12" />
+      <option name="PREFERRED_AVD" value="dev-14" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -456,29 +470,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="1912" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29383117" sideWeight="0.672209" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39904988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37196112" sideWeight="0.6710214" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37196112" sideWeight="0.6009501" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6472684" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6472684" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2941653" sideWeight="0.6472684" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3527316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -548,13 +562,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationListViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="71" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2232#2920#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#3533#3723#0" expanded="true" />
-            <element signature="e#3712#3713#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,36 +604,19 @@
         <state line="667" column="33" selection-start="26165" selection-end="26165" vertical-scroll-proportion="0.3321739" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationsDbAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="13" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/location_info.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="19" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.5072464">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.7801932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/android-sdk/sources/android-17/android/database/Cursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="8" selection-start="6572" selection-end="6572" vertical-scroll-proportion="0.33887467">
           <folding />
         </state>
       </provider>
@@ -637,22 +628,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationListViewActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/location_info.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="37" selection-start="648" selection-end="672" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2232#2920#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#3533#3723#0" expanded="true" />
-            <element signature="e#3712#3713#0" expanded="true" />
-          </folding>
+        <state line="44" column="19" selection-start="1610" selection-end="1610" vertical-scroll-proportion="0.0372807">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="253" selection-end="253" vertical-scroll-proportion="-4.76">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="810" selection-end="810" vertical-scroll-proportion="0.5361781">
+        <state line="16" column="46" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/android-sdk/sources/android-17/android/widget/SimpleCursorAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="22" selection-start="4630" selection-end="4630" vertical-scroll-proportion="3.3161435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationsDbAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="75" selection-start="6801" selection-end="6801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chridam/loadshedder/LocationListViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="24" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.7583333">
           <folding />
         </state>
       </provider>
